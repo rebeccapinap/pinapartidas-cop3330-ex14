@@ -31,8 +31,6 @@ public class App
 
         total = orderAmt + tax;
 
-        System.out.format("The subtotal is $%.2f. \n", orderAmt);
-        System.out.format("The tax is $%.2f. \n", tax);
-        System.out.format("The total is $%.2f. \n", total);
+        System.out.format("The subtotal is $%.2f. \nThe tax is $%.2f. \nThe total is $%.2f. \n", orderAmt, tax, total);
     }
 }
